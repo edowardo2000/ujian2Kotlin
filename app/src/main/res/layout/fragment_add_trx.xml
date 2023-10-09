@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uifragment.AddTrx">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Tambah Data"
+            android:textColor="@color/white"
+            android:textColorHint="#FAF6F6"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/bgtext"
+            android:ems="10"
+            android:hint="Nama Lengkap"
+            android:inputType="text"
+            android:textColor="#F8F1F1"
+            android:textColorHint="#FAFAFA" />
+
+        <EditText
+            android:id="@+id/editAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/bgtext"
+            android:ems="10"
+            android:hint="Alamat"
+            android:inputType="text"
+            android:textColor="#F4EBEB"
+            android:textColorHint="#F3E8E8" />
+
+        <EditText
+            android:id="@+id/editOutstanding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgtext"
+            android:ems="10"
+            android:hint="Jumlah Outstanding"
+            android:inputType="text"
+            android:textColor="#F6F0F0"
+            android:textColorHint="#F6F2F2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingTop="25dp"
+            android:paddingRight="30dp">
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Kirim Data" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
